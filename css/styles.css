@@ -1,0 +1,177 @@
+#title{
+  background-color: #ff4c68;
+}
+body{
+  font-family: "Montserrat";
+}
+.navbar{
+  background-color:#ff4c68;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+  /* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1.125rem;
+}
+
+  /* Download Buttons */
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+   /* download-button */
+
+
+.iphone-pic{
+  transform: rotate(25deg);
+  width: 21%;
+  position: absolute;
+   right: 24%;
+}
+
+
+     /* Feature */
+
+.features-cont{
+  position: relative;
+
+  background-color: #fff;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+.ft-box h3 {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+}
+
+.ft-box p{
+  color: #8f8f8f;
+  font-size: 0.95rem;
+  font-family: "arial";
+}
+
+.features-icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+
+            /* Testimonials section */
+
+.testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+              /* Press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px
+}
+
+
+          /* Pricing Section */
+
+  #pricing{
+    padding:6.25rem;
+    text-align: center;
+  }
+  .price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .pricing-column{
+    padding: 3% 2%;
+  }
+
+            /* Call to Action Section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 3% 15%;
+}
+.foot-act{
+    font-size: 3.5rem;
+}
+
+      /* Footer Sectoin */
+
+#footer{
+  background-color: #fff;
+  font-family: 'Ubuntu';
+  text-align: center;
+  padding: 3% 15%;
+}
+.foot-icon{
+margin:20px 10px;
+  text-decoration: none;
+  color: #000;
+}
+.copyright{color: gray;}
+
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone-pic{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+}
